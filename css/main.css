@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+
+p, h1, h2, h3, h4 {
+    color: white;
+    font-size: 40px;
+}
+
+.center {
+    text-align: center;
+    align-content: center;
+}
+
+.greenText {
+    color: green;
+}
+
+.redText {
+    color: red;
+}
+
+.headerText {
+    font-size: 90px;
+}
+
+.subText {
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.bullelements{
+    font-size: 50px;
+    color: red;
+    margin-bottom: 0px;
+}
+
+button {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 30px;
+}

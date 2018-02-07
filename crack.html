@@ -1,22 +1,18 @@
-<!--
-THIS PROJECT IS LICENSED UNDER MIT AND WAS CREATED WITH THE HELP OF THE FOLLOWING REPOS:
-SHA512 Algorithm: https://github.com/emn178/js-sha512
-MD5 Algorithm: https://github.com/blueimp/JavaScript-MD5
--->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta title="JS Hashcracker">
     <meta charset="UTF-8">
-    <title>JS Hashcracker</title>
+    <title>Crack a Hash</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/CrackPageScript.js"></script>
 </head>
 <body class="center">
 <h1 class="headerText"><span class="redText">JS</span><span class="greenText">Crack</span></h1>
 <h2 class="subText"><i>"The quieter you become, the more you are able to hear."</i></h2>
-<p>Get started</p>
-<button onclick="redirect('sha512')">Start cracking an SHA512 Hash!</button>
-<script src="js/main.js"></script>
+<p>Get started with Cracking!</p>
+<p id="combStatus" class="bullelements">&bull;</p> <button onclick="generateComb()">Generate Combinations</button>
+<script src="js/crack.js"></script>
+<script src="js/crack.js"></script>
 <script src="js/md5.js"></script>
 <script src="js/sha512.js"></script>
 </body>
