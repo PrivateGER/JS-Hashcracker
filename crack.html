@@ -11,6 +11,13 @@
 <h2 class="subText"><i>"The quieter you become, the more you are able to hear."</i></h2>
 <p>Get started with Cracking!</p>
 <p id="combStatus" class="bullelements">&bull;</p> <button onclick="generateComb()">Generate Combinations</button>
+<p id="hashStatus" class="bullelements">&bull;</p>
+<input id="hashField" type="text" placeholder="Enter Hash...">
+<button onclick="validateHash('hashField','hashStatus')">Verify hash</button>
+<br />
+<br />
+<button id="crackButton" onclick="hashcrackStart('hashField')" style="background-color: red;" disabled>Start cracking</button>
+<p id="hashIndicator"></p>
 <script src="js/crack.js"></script>
 <script src="js/crack.js"></script>
 <script src="js/md5.js"></script>
