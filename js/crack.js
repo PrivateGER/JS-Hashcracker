@@ -78,8 +78,5 @@ function validateHash(fieldID, indicatorID) {
             alert("Invalid Hash entered!");
         }
     }
-    // else form is good let it submit, of course you will
-    // probably want to alert the user WHAT went wrong.
 
-    return true;
 }
